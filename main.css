@@ -316,7 +316,7 @@ nav {
 }
 
 .about-img img {
-  height: 20rem;
+  max-height: 20rem;
   width: auto;
   margin: 2rem;
   padding-right: 10rem;
