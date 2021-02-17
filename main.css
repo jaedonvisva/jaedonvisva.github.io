@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap');
 
 /* Global styles */
 
@@ -11,7 +11,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -196,8 +196,12 @@ nav {
 .landing-page {
   width: 100%;
   height: 100vh;
-  background-color: #2234ae;
-  background-image: linear-gradient(180deg, #2234ae 0%, #101010 100%);
+  background: hsla(240, 100%, 25%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(240, 100%, 25%, 1) 20%,
+    hsla(0, 0%, 0%, 1) 100%
+  );
   position: relative;
 }
 
@@ -331,7 +335,7 @@ nav {
 }
 
 .about-text-box p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   padding: 0;
   margin-bottom: 1.45rem;
@@ -368,7 +372,7 @@ hr {
 }
 
 .title-heading p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 5rem;
 }
 
@@ -405,7 +409,7 @@ hr {
 }
 
 .tier-item p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
 }
 
@@ -450,7 +454,7 @@ hr {
 }
 
 .project-description p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
 }
 
@@ -477,7 +481,7 @@ hr {
 }
 
 .contact p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   padding: 0;
   margin: 0.9rem 2rem;
