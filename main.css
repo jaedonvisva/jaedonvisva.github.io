@@ -316,10 +316,10 @@ nav {
 }
 
 .about-img img {
-  max-height: 20rem;
-  width: auto;
+  height: auto;
+  width: 20vw;
   margin: 2rem;
-  padding-right: 10rem;
+  padding-right: 4rem;
 }
 
 .about-text-box {
