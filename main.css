@@ -282,11 +282,8 @@ nav {
 
 .btn:hover {
   color: #fafafa;
-  background: linear-gradient(
-    to right,
-    rgb(59, 102, 201),
-    rgb(228, 231, 239)
-  );
+  background: rgb(59,102,201);
+  background: linear-gradient(90deg, rgba(59,102,201,1) 0%, rgba(79,118,207,0.82) 80%);
 }
 
 .scroll-down i {
