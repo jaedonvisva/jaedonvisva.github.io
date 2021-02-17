@@ -115,8 +115,11 @@ nav {
   background: rgba(55, 55, 55, 0.5);
   padding: 1.2rem;
   border-radius: 0% 0% 0% 40%;
+  transition: 0.5s
 }
-
+.burger-menu-icon:hover {
+  background: rgba(55, 55, 55, 1);
+}
 .profile-pic {
   height: 9rem;
   width: auto;
