@@ -223,6 +223,7 @@ nav {
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(12), blink 1s ease-in-out 5s infinite;
+  animation-delay: 2s;
   width: 22.5ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
