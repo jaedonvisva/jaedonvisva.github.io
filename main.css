@@ -318,6 +318,7 @@ nav {
 .about-img img {
   height: auto;
   width: 20vw;
+  min-width: 10vh;
   margin: 2rem;
   padding-right: 4rem;
 }
